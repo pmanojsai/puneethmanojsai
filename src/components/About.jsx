@@ -7,22 +7,22 @@ export default function About() {
     {
       icon: <Award className="text-[var(--color-gold)]" size={20} />,
       title: "Patent Filed",
-      desc: "Innovative AI/Blockchain integration system."
+      desc: "Ojas Raksha: DPDP Compliant Healthcare."
     },
     {
       icon: <Users className="text-[var(--color-bronze)]" size={20} />,
-      title: "800+ Users Served",
-      desc: "Deploying active live web systems to production."
+      title: "IEEE Web Master",
+      desc: "Official event websites & platform management."
     },
     {
       icon: <Bookmark className="text-[var(--color-gold)]" size={20} />,
-      title: "Full-Stack Production",
-      desc: "High-load MERN applications."
+      title: "Tech Lead",
+      desc: "Algorand Club, mentoring & blockchain DApps."
     },
     {
       icon: <Shield className="text-[var(--color-bronze)]" size={20} />,
-      title: "AWS Certified",
-      desc: "Certified Cloud Practitioner engineering."
+      title: "AWS & MongoDB",
+      desc: "Certified Cloud Practitioner & Associate Developer."
     }
   ];
 
@@ -53,7 +53,7 @@ export default function About() {
           </h2>
 
           <p className="text-[var(--color-parchment)]/80 leading-relaxed font-sans font-light text-sm sm:text-base mb-8">
-            I am a 3rd-year CSIT scholar focused on engineering robust AI architectures, full-stack systems, secure blockchain applications, and immersive digital experiences. I weave classical software craftsmanship with timeless visual elegance to forge enduring technological legacies.
+            I am a 3rd-year B.Tech CSIT student at KL University (CGPA 7.81, Class of 2027) focused on engineering robust AI architectures, full-stack MERN systems, secure blockchain applications, and immersive digital experiences. I weave classical software craftsmanship with timeless visual elegance to forge enduring technological legacies.
           </p>
 
           {/* Archive Nodes Grid */}

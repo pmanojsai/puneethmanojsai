@@ -60,7 +60,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-lg sm:text-2xl font-cinematic italic tracking-widest text-[var(--color-gold)] uppercase mb-8 opacity-90 drop-shadow-md"
         >
-          Software Engineer • AI Systems<br className="hidden sm:block" /> • Full Stack Developer
+          Full Stack MERN Developer • Web3 Developer<br className="hidden sm:block" /> • Tech Lead
         </motion.h2>
 
         {/* Tagline pills */}
@@ -68,11 +68,9 @@ export default function Hero() {
           variants={itemVariants}
           className="flex flex-wrap items-center justify-end gap-3 font-sans text-xs sm:text-sm text-[var(--color-parchment)]/70 max-w-xl mb-10 uppercase tracking-[0.2em]"
         >
-          <span>MERN</span>
+          <span>Cybersecurity</span>
           <span className="text-[var(--color-bronze)]">✧</span>
-          <span>AI Architecture</span>
-          <span className="text-[var(--color-bronze)]">✧</span>
-          <span>Web3</span>
+          <span>Blockchain/Web3</span>
           <span className="text-[var(--color-bronze)]">✧</span>
           <span>Cloud Systems</span>
         </motion.div>
@@ -82,7 +80,7 @@ export default function Hero() {
           variants={itemVariants}
           className="text-sm sm:text-base text-[var(--color-parchment)]/80 max-w-xl font-sans font-light leading-relaxed tracking-wide mb-12 italic"
         >
-          Crafting intelligent algorithms, cinematic digital experiences, and masterful full-stack architectures built for legacy.
+          Crafting scalable web applications, blockchain-powered systems, AI solutions, and masterful full-stack architectures built for legacy.
         </motion.p>
 
         {/* Call to Actions */}
@@ -97,10 +95,11 @@ export default function Hero() {
             View Case Studies
           </a>
           <a
-            href="#about"
+            href="/resume.pdf"
+            download="Puneeth_Manoj_Sai_Resume.pdf"
             className="px-10 py-3.5 border border-[var(--color-gold)] bg-[var(--color-gold)]/10 backdrop-blur-sm text-[var(--color-gold)] text-xs font-sans tracking-[0.2em] shadow-[0_0_15px_rgba(212,175,55,0.15)] hover:bg-[var(--color-gold)] hover:text-[var(--color-obsidian)] hover:shadow-[0_0_25px_rgba(212,175,55,0.4)] transition-all duration-500 uppercase cursor-pointer"
           >
-            Explore The Archive
+            Download Resume
           </a>
         </motion.div>
       </motion.div>

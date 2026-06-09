@@ -5,40 +5,40 @@ import { Trophy, Star, Medal, Zap } from 'lucide-react';
 export default function Awards() {
   const awards = [
     {
-      title: "Smart India Hackathon",
-      subtitle: "National Finalist",
+      title: "IEEE Best Performer Award",
+      subtitle: "KL University",
       year: "2024",
-      desc: "Selected as a national-level finalist for building an AI-powered legal aid platform solving citizen access to justice across India.",
+      desc: "Awarded for exceptional contributions and dedication to the IEEE Student Branch initiatives and technical events.",
       icon: <Trophy className="text-[var(--color-gold)]" size={22} />,
       accent: "border-[var(--color-gold)]/30 shadow-[0_0_25px_rgba(212,175,55,0.08)]",
-      tag: "NATIONAL"
+      tag: "ACHIEVEMENT"
     },
     {
-      title: "IEEE YESIST12 Hackathon",
-      subtitle: "Regional Winner",
-      year: "2023",
-      desc: "Engineered a real-time blockchain-based supply chain solution, securing the regional top position among 200+ competing teams.",
+      title: "Best Volunteering Medal",
+      subtitle: "KL University",
+      year: "2024",
+      desc: "Recognized for outstanding volunteering efforts and leadership in organizing successful university-wide technical symposiums.",
       icon: <Medal className="text-[var(--color-bronze)]" size={22} />,
       accent: "border-[var(--color-bronze)]/30 shadow-[0_0_25px_rgba(205,127,50,0.08)]",
-      tag: "REGIONAL"
+      tag: "HONOUR"
     },
     {
-      title: "Open Source Contribution Award",
-      subtitle: "GitHub Community Recognition",
-      year: "2023",
-      desc: "Recognized for consistent high-impact contributions to open source MERN stack libraries and developer tooling repositories.",
-      icon: <Star className="text-[var(--color-gold)]" size={22} />,
+      title: "Provisional Patent Filed",
+      subtitle: "Ojas Raksha",
+      year: "2025",
+      desc: "Filed an official provisional patent for a novel AI-integrated decentralized auditing architecture combining neural inference with immutable smart contract logs.",
+      icon: <Zap className="text-[var(--color-gold)]" size={22} />,
       accent: "border-[var(--color-gold)]/30 shadow-[0_0_25px_rgba(212,175,55,0.08)]",
-      tag: "COMMUNITY"
+      tag: "PATENT"
     },
     {
-      title: "Patent Filed — AI/Blockchain Fusion",
-      subtitle: "Intellectual Property",
-      year: "2024",
-      desc: "Filed an official patent for a novel AI-integrated decentralized auditing architecture combining neural inference with immutable smart contract logs.",
-      icon: <Zap className="text-[var(--color-bronze)]" size={22} />,
+      title: "Leadership Excellence",
+      subtitle: "Tech Lead & Web Master",
+      year: "2025",
+      desc: "Recognized for leading the Algorand Club and serving as the Web Master & Graphic Designer for the IEEE Student Branch.",
+      icon: <Star className="text-[var(--color-bronze)]" size={22} />,
       accent: "border-[var(--color-bronze)]/30 shadow-[0_0_25px_rgba(205,127,50,0.08)]",
-      tag: "PATENT"
+      tag: "LEADERSHIP"
     }
   ];
 

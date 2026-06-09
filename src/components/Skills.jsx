@@ -1,43 +1,55 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Server, Cpu, Layers, Cloud, Database } from 'lucide-react';
+import { Code, Server, Cpu, Layers, Cloud, Database, Shield, Terminal } from 'lucide-react';
 
 export default function Skills() {
   const skillCategories = [
     {
-      category: "Frontend Engineering",
+      category: "Programming Languages",
       icon: <Code className="text-[var(--color-gold)]" size={18} />,
-      skills: ["React.js", "Next.js", "Tailwind CSS", "GSAP ScrollTrigger"],
+      skills: ["Java", "Python", "C", "JavaScript", "TypeScript", "SQL"],
       glowColor: "border-[var(--color-gold)]/20 shadow-[0_0_20px_rgba(212,175,55,0.05)] hover:border-[var(--color-gold)]/50"
+    },
+    {
+      category: "Frontend Engineering",
+      icon: <Layers className="text-[var(--color-bronze)]" size={18} />,
+      skills: ["React.js", "Next.js", "HTML5/CSS3", "Tailwind CSS", "Bootstrap"],
+      glowColor: "border-[var(--color-bronze)]/20 shadow-[0_0_20px_rgba(205,127,50,0.05)] hover:border-[var(--color-bronze)]/50"
     },
     {
       category: "Backend Architecture",
-      icon: <Server className="text-[var(--color-bronze)]" size={18} />,
-      skills: ["Node.js", "Express.js", "Python", "Java"],
-      glowColor: "border-[var(--color-bronze)]/20 shadow-[0_0_20px_rgba(205,127,50,0.05)] hover:border-[var(--color-bronze)]/50"
-    },
-    {
-      category: "Artificial Intelligence",
-      icon: <Cpu className="text-[var(--color-gold)]" size={18} />,
-      skills: ["Neural Systems", "LLM Integration", "Agent Architectures", "Python RAG"],
-      glowColor: "border-[var(--color-gold)]/20 shadow-[0_0_20px_rgba(212,175,55,0.05)] hover:border-[var(--color-gold)]/50"
-    },
-    {
-      category: "Blockchain Systems",
-      icon: <Layers className="text-[var(--color-bronze)]" size={18} />,
-      skills: ["Solidity", "IPFS Storage", "Smart Contracts", "Web3 Libraries"],
-      glowColor: "border-[var(--color-bronze)]/20 shadow-[0_0_20px_rgba(205,127,50,0.05)] hover:border-[var(--color-bronze)]/50"
-    },
-    {
-      category: "Cloud Infrastructure",
-      icon: <Cloud className="text-[var(--color-gold)]" size={18} />,
-      skills: ["AWS Cloud Practitioner", "Docker Containers", "Nginx", "CI/CD Actions"],
+      icon: <Server className="text-[var(--color-gold)]" size={18} />,
+      skills: ["Node.js", "Express.js", "Flask"],
       glowColor: "border-[var(--color-gold)]/20 shadow-[0_0_20px_rgba(212,175,55,0.05)] hover:border-[var(--color-gold)]/50"
     },
     {
       category: "Database Engineering",
       icon: <Database className="text-[var(--color-bronze)]" size={18} />,
-      skills: ["MongoDB", "PostgreSQL", "Relational Models", "Redis Caching"],
+      skills: ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
+      glowColor: "border-[var(--color-bronze)]/20 shadow-[0_0_20px_rgba(205,127,50,0.05)] hover:border-[var(--color-bronze)]/50"
+    },
+    {
+      category: "Cloud & DevOps",
+      icon: <Cloud className="text-[var(--color-gold)]" size={18} />,
+      skills: ["AWS", "Docker", "GitHub Actions", "CI/CD", "Vercel", "Netlify"],
+      glowColor: "border-[var(--color-gold)]/20 shadow-[0_0_20px_rgba(212,175,55,0.05)] hover:border-[var(--color-gold)]/50"
+    },
+    {
+      category: "Cybersecurity",
+      icon: <Shield className="text-[var(--color-bronze)]" size={18} />,
+      skills: ["Application Security", "Secure Authentication", "Data Privacy", "DPDP Compliance"],
+      glowColor: "border-[var(--color-bronze)]/20 shadow-[0_0_20px_rgba(205,127,50,0.05)] hover:border-[var(--color-bronze)]/50"
+    },
+    {
+      category: "Blockchain / Web3",
+      icon: <Cpu className="text-[var(--color-gold)]" size={18} />,
+      skills: ["Solidity", "Smart Contracts", "IPFS", "MetaMask", "Web3.js", "Algorand SDK"],
+      glowColor: "border-[var(--color-gold)]/20 shadow-[0_0_20px_rgba(212,175,55,0.05)] hover:border-[var(--color-gold)]/50"
+    },
+    {
+      category: "Tools & Environments",
+      icon: <Terminal className="text-[var(--color-bronze)]" size={18} />,
+      skills: ["Git & GitHub", "Linux", "Postman", "VS Code", "Figma", "Notion"],
       glowColor: "border-[var(--color-bronze)]/20 shadow-[0_0_20px_rgba(205,127,50,0.05)] hover:border-[var(--color-bronze)]/50"
     }
   ];

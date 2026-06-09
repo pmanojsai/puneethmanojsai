@@ -7,23 +7,51 @@ export default function Certifications() {
     {
       title: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services (AWS)",
-      id: "AWS-CCP-9381273",
+      id: "AWS-CCP",
       glow: "border-[var(--color-gold)]/30 shadow-glow-gold",
       desc: "Cloud deployment, VPC architectures, EC2 infrastructure scaling, IAM security roles."
     },
     {
       title: "MongoDB Associate Developer",
       issuer: "MongoDB Inc.",
-      id: "MDB-DEV-8234891",
+      id: "MDB-DEV",
       glow: "border-[var(--color-bronze)]/30 shadow-[0_0_15px_rgba(205,127,50,0.1)]",
       desc: "NoSQL schema indexing, aggregation pipelines, transaction security, atlas scaling."
     },
     {
       title: "Agentforce Specialist",
-      issuer: "Salesforce Specialist",
-      id: "SF-AGF-7104928",
+      issuer: "Salesforce",
+      id: "SF-AGF",
       glow: "border-[var(--color-gold)]/30 shadow-glow-gold",
-      desc: "Autonomous conversational AI agents, action orchestrators, metadata flows, custom API system integrations."
+      desc: "Autonomous conversational AI agents, action orchestrators, custom API integrations."
+    },
+    {
+      title: "Node.js Certification",
+      issuer: "Verified Credential",
+      id: "NODE-JS",
+      glow: "border-[var(--color-bronze)]/30 shadow-[0_0_15px_rgba(205,127,50,0.1)]",
+      desc: "Event-driven architecture, REST APIs, asynchronous programming, backend deployment."
+    },
+    {
+      title: "Spring MVC & JSP",
+      issuer: "Verified Credential",
+      id: "JAVA-SPRING",
+      glow: "border-[var(--color-gold)]/30 shadow-glow-gold",
+      desc: "Enterprise Java web applications, model-view-controller architectures, secure routing."
+    },
+    {
+      title: "IndustriAI Hackathon",
+      issuer: "Hackathon",
+      id: "IND-AI",
+      glow: "border-[var(--color-bronze)]/30 shadow-[0_0_15px_rgba(205,127,50,0.1)]",
+      desc: "Built scalable AI/ML integrated systems under tight competition deadlines."
+    },
+    {
+      title: "ChatGPT + Zapier",
+      issuer: "Verified Credential",
+      id: "AI-ZAP",
+      glow: "border-[var(--color-gold)]/30 shadow-glow-gold",
+      desc: "Advanced AI automation workflows and intelligent system triggers."
     }
   ];
 

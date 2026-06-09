@@ -13,7 +13,7 @@ export default function Navbar() {
     { name: 'Projects', href: '#projects' },
     { name: 'Awards', href: '#awards' },
     { name: 'Experience', href: '#experience' },
-    { name: 'Certs', href: '#certifications' },
+    { name: 'Certifications', href: '#certifications' },
     { name: 'Contact', href: '#contact' }
   ];
 
@@ -35,38 +35,39 @@ export default function Navbar() {
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[40] w-[98%] max-w-7xl transition-all duration-500 rounded-full px-5 py-2.5 flex justify-between items-center ${
+        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[40] w-[90%] max-w-6xl transition-all duration-500 rounded-full px-6 py-3 sm:py-4 flex justify-between items-center ${
           scrolled 
             ? 'glassmorphism shadow-glow-gold border-white/5' 
             : 'bg-transparent border-transparent'
         }`}
       >
         {/* Brand Logo */}
-        <a href="#home" className="flex items-center space-x-2 group flex-shrink-0">
-          <div className="w-7 h-7 rounded-full border border-[var(--color-gold)]/40 flex items-center justify-center bg-[var(--color-gold)]/5 group-hover:border-[var(--color-gold)] group-hover:shadow-glow-gold transition-all duration-500">
-            <Compass size={12} className="text-[var(--color-gold)] text-glow-gold" />
+        <a href="#home" className="flex items-center space-x-3 group">
+          <div className="w-8 h-8 rounded-full border border-[var(--color-gold)]/40 flex items-center justify-center bg-[var(--color-gold)]/5 group-hover:border-[var(--color-gold)] group-hover:shadow-glow-gold transition-all duration-500">
+            <Compass size={14} className="text-[var(--color-gold)] text-glow-gold" />
           </div>
-          <span className="font-display text-xs tracking-widest text-[var(--color-parchment)] group-hover:text-[var(--color-gold)] transition-all duration-500 italic whitespace-nowrap">
-            Puneeth <span className="text-[var(--color-gold)] text-glow-gold not-italic font-cinematic text-[10px]">// Archives</span>
+          <span className="font-display text-sm sm:text-base tracking-widest text-[var(--color-parchment)] group-hover:text-[var(--color-gold)] transition-all duration-500 italic">
+            Puneeth <span className="text-[var(--color-gold)] text-glow-gold not-italic font-cinematic text-xs">// Archives</span>
           </span>
         </a>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center space-x-3">
+        <div className="hidden md:flex items-center space-x-4">
           {navItems.map((item) => (
             <a 
               key={item.name} 
               href={item.href}
-              className="text-[9px] font-sans tracking-[0.1em] text-[var(--color-parchment)]/70 hover:text-[var(--color-gold)] hover:text-glow-gold transition-all duration-500 uppercase relative py-1 whitespace-nowrap"
+              className="text-[10px] font-sans tracking-[0.12em] text-[var(--color-parchment)]/70 hover:text-[var(--color-gold)] hover:text-glow-gold transition-all duration-500 uppercase relative py-1"
             >
               {item.name}
             </a>
           ))}
           <a
-            href="#contact"
-            className="px-3 py-1.5 rounded-sm border border-[var(--color-gold)]/40 bg-[var(--color-gold)]/5 text-[9px] font-sans tracking-[0.1em] text-[var(--color-gold)] hover:bg-[var(--color-gold)] hover:text-[var(--color-obsidian)] transition-all duration-500 shadow-[0_0_10px_rgba(212,175,55,0.05)] hover:shadow-[0_0_15px_rgba(212,175,55,0.3)] whitespace-nowrap"
+            href="/resume.pdf"
+            download="Puneeth_Manoj_Sai_Resume.pdf"
+            className="px-4 py-1.5 rounded-sm border border-[var(--color-gold)]/40 bg-[var(--color-gold)]/5 text-[10px] font-sans tracking-[0.12em] text-[var(--color-gold)] hover:bg-[var(--color-gold)] hover:text-[var(--color-obsidian)] transition-all duration-500 shadow-[0_0_10px_rgba(212,175,55,0.05)] hover:shadow-[0_0_15px_rgba(212,175,55,0.3)]"
           >
-            INQUIRE
+            RESUME
           </a>
         </div>
 
@@ -104,11 +105,12 @@ export default function Navbar() {
               </motion.a>
             ))}
             <a
-              href="#contact"
+              href="/resume.pdf"
+              download="Puneeth_Manoj_Sai_Resume.pdf"
               onClick={() => setIsOpen(false)}
               className="w-full py-3 mt-2 rounded-sm border border-[var(--color-gold)] bg-[var(--color-gold)]/10 text-center text-sm font-sans tracking-[0.2em] text-[var(--color-gold)] hover:bg-[var(--color-gold)] hover:text-[var(--color-obsidian)] transition-all duration-500"
             >
-              INQUIRE NOW
+              DOWNLOAD RESUME
             </a>
           </motion.div>
         )}

@@ -43,41 +43,41 @@ export default function Projects() {
     {
       title: "Ojas Raksha",
       role: "Lead Architect",
-      desc: "A highly secure blockchain healthcare archival platform. Implements IPFS decentralized vaulting and robust Solidity smart contracts for irrefutable patient privacy auditing.",
-      tech: ["React.js", "Solidity", "IPFS", "Ethereum", "Node.js", "Web3.js"],
+      desc: "Patent-filed DPDP compliant blockchain healthcare platform featuring secure patient records, role-based access control, decentralized IPFS storage, and blockchain authentication.",
+      tech: ["React.js", "Node.js", "Express.js", "Solidity", "IPFS", "MongoDB"],
       accent: "border-[var(--color-gold)] shadow-[0_0_30px_rgba(212,175,55,0.15)]",
       special: true,
-      github: "#",
-      live: "#"
+      github: "https://github.com/pmanojsai",
+      live: "https://ojasraksha.vercel.app"
     },
     {
       title: "Hexa AI",
       role: "Principal Engineer",
-      desc: "An intelligent autonomous agent mechanism designed for complex decision automation. Powered by specialized LLMs with secure data extraction and archival analytics.",
-      tech: ["Next.js", "Python", "FastAPI", "VectorDB", "LangChain", "Docker"],
+      desc: "Advanced AI assistant supporting automation, intelligent conversations, API integrations, and productivity workflows. Designed for complex decision automation.",
+      tech: ["Python", "Flask", "OpenAI API", "NLP"],
       accent: "border-[var(--color-bronze)] shadow-[0_0_30px_rgba(205,127,50,0.1)]",
       special: false,
-      github: "#",
+      github: "https://github.com/pmanojsai",
       live: "#"
     },
     {
-      title: "IEEE Chronicles",
+      title: "KLEF IEEE Website",
       role: "Web Master",
-      desc: "The primary digital portal for Puneeth's college IEEE student chapter. Engineered with a custom event logbook, administrative sanctum, and responsive glass architecture.",
-      tech: ["React.js", "Express.js", "MongoDB", "Node.js", "Tailwind CSS"],
+      desc: "Official IEEE student branch website handling event registrations, announcements, and community engagement for students. Engineered with a custom event logbook.",
+      tech: ["React.js", "Tailwind CSS", "Vercel", "GitHub Actions"],
       accent: "border-[var(--color-gold)]/20 hover:border-[var(--color-gold)]/60",
       special: false,
-      github: "#",
-      live: "#"
+      github: "https://github.com/pmanojsai",
+      live: "https://ieee-website-kohl.vercel.app"
     },
     {
-      title: "AIQSec Symposium",
+      title: "AIQSec Conference",
       role: "Tech Lead",
-      desc: "Official international conference ledger specialized in AI and Quantum Cryptographic Security. Designed to manage delegate registrations and research manuscript tracking.",
+      desc: "Official international conference ledger specialized in AI and Quantum Cryptographic Security. Designed to manage delegate registrations and research tracking.",
       tech: ["Vite", "Tailwind CSS", "Framer Motion", "GSAP ScrollTrigger"],
       accent: "border-[var(--color-bronze)]/20 hover:border-[var(--color-bronze)]/60",
       special: false,
-      github: "#",
+      github: "https://github.com/pmanojsai",
       live: "#"
     },
     {
@@ -87,7 +87,7 @@ export default function Projects() {
       tech: ["React.js", "Tailwind CSS", "GSAP Animations", "PostgreSQL"],
       accent: "border-[var(--color-gold)]/20 hover:border-[var(--color-gold)]/60",
       special: false,
-      github: "#",
+      github: "https://github.com/pmanojsai",
       live: "#"
     }
   ];

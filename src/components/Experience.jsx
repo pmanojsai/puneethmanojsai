@@ -5,28 +5,20 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 export default function Experience() {
   const experiences = [
     {
-      role: "Algorand Club Tech Lead",
-      organization: "Algorand Student Chapter",
-      period: "2024 - PRESENT",
-      desc: "Directed technical bootcamps focused on pure proof-of-stake blockchain architectures. Mentored Solidity & PyTeal developer sessions and guided multiple hackathon achievements.",
-      location: "Campus Hub",
+      role: "Tech Lead",
+      organization: "Algorand Club",
+      period: "Mar 2025 - Present",
+      desc: "Leading blockchain initiatives, mentoring members, conducting technical workshops, and guiding real-world decentralized application development.",
+      location: "KL University",
       glow: "shadow-[0_0_20px_rgba(212,175,55,0.1)] border-[var(--color-gold)]/20"
     },
     {
-      role: "IEEE Student Web Master",
+      role: "Web Master & Graphic Designer",
       organization: "IEEE Student Branch",
-      period: "2023 - 2024",
-      desc: "Engineered the central IEEE symposium portal, streamlining peer registration pipelines. Optimized core digital assets, achieving flawless PageSpeed metrics during high traffic events.",
-      location: "Technical Branch",
+      period: "Dec 2024 - Present",
+      desc: "Developing official event websites, managing digital platforms, improving UI/UX, and maintaining IEEE branding for various international conferences.",
+      location: "KL University",
       glow: "shadow-[0_0_20px_rgba(205,127,50,0.1)] border-[var(--color-bronze)]/20"
-    },
-    {
-      role: "Technical Content Lead & Mentor",
-      organization: "Developer Chapters",
-      period: "2022 - 2023",
-      desc: "Mentored over 100 junior engineers in foundational MERN stack craftsmanship. Designed advanced curriculum modules for REST APIs, MongoDB schemas, and Git version controllers.",
-      location: "Remote Chapters",
-      glow: "shadow-[0_0_20px_rgba(212,175,55,0.1)] border-[var(--color-gold)]/20"
     }
   ];
 
