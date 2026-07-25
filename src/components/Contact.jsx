@@ -33,8 +33,8 @@ export default function Contact() {
   ];
 
   return (
-    <section 
-      id="contact" 
+    <section
+      id="contact"
       className="relative min-h-screen w-full flex flex-col justify-between px-6 sm:px-16 lg:px-32 py-24 select-none overflow-hidden"
     >
       {/* Very subtle right-side gradient only */}
@@ -53,7 +53,7 @@ export default function Contact() {
           className="space-y-8"
         >
           <span className="text-[10px] font-sans tracking-[0.3em] text-[var(--color-gold)] uppercase italic opacity-80">Vol. VII // Correspondence</span>
-          
+
           <h2 className="text-5xl sm:text-7xl font-display font-medium text-[var(--color-parchment)] tracking-wide leading-none drop-shadow-md">
             The Invitation
           </h2>
@@ -96,26 +96,9 @@ export default function Contact() {
 
       {/* Cinematic Outro / Ending Movie Credits */}
       <div className="w-full max-w-3xl ml-auto border-t border-[var(--color-gold)]/10 pt-12 text-right select-none">
-        
-        {/* Cinematic Spaced Credits Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 font-sans text-[9px] sm:text-[10px] text-[var(--color-parchment)]/60 tracking-[0.2em] uppercase mb-16 italic">
-          <div>
-            <span className="text-[var(--color-gold)]/60 block mb-1 font-semibold not-italic">AUTHORED BY</span>
-            <span>PUNEETH M. SAI</span>
-          </div>
-          <div>
-            <span className="text-[var(--color-gold)]/60 block mb-1 font-semibold not-italic">ARCHIVAL ENGINE</span>
-            <span>ANTIGRAVITY SYSTEMS</span>
-          </div>
-          <div>
-            <span className="text-[var(--color-gold)]/60 block mb-1 font-semibold not-italic">MATERIALS</span>
-            <span>REACT + TAILWIND V4</span>
-          </div>
-          <div>
-            <span className="text-[var(--color-gold)]/60 block mb-1 font-semibold not-italic">CHOREOGRAPHY</span>
-            <span>GSAP + SCROLLTRIGGER</span>
-          </div>
-        </div>
+
+
+
 
         {/* Closing Title "THE JOURNEY CONTINUES..." */}
         <motion.div

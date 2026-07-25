@@ -24,8 +24,8 @@ export default function Hero() {
   };
 
   return (
-    <section 
-      id="home" 
+    <section
+      id="home"
       className="relative min-h-screen w-full flex items-center justify-end px-6 sm:px-16 lg:px-32 py-24 select-none overflow-hidden"
     >
       {/* Soft overlay gradient - reduced */}
@@ -39,32 +39,32 @@ export default function Hero() {
         className="max-w-3xl flex flex-col items-end text-right justify-center mt-20"
       >
         {/* Cinematic micro badge */}
-        <motion.div 
+        <motion.div
           variants={itemVariants}
           className="flex items-center space-x-2 px-4 py-1.5 border border-[var(--color-gold)]/20 bg-[var(--color-gold)]/5 text-[10px] font-sans tracking-[0.3em] uppercase text-[var(--color-gold)] mb-8"
         >
           <Sparkles size={12} className="opacity-80" />
-          <span>Exhibition I // Active</span>
+          <span></span>
         </motion.div>
 
         {/* Big Premium Title */}
-        <motion.h1 
+        <motion.h1
           variants={itemVariants}
           className="text-5xl sm:text-7xl lg:text-8xl font-display font-medium tracking-wide text-[var(--color-parchment)] select-none leading-tight mb-4 drop-shadow-2xl"
         >
-          PUNEETH<br/>MANOJ SAI
+          PUNEETH<br />MANOJ SAI
         </motion.h1>
 
         {/* Spaced Subtitle / Role */}
-        <motion.h2 
+        <motion.h2
           variants={itemVariants}
           className="text-lg sm:text-2xl font-cinematic italic tracking-widest text-[var(--color-gold)] uppercase mb-8 opacity-90 drop-shadow-md"
         >
-          Full Stack MERN Developer • Web3 Developer<br className="hidden sm:block" /> • Tech Lead
+          Full Stack MERN Developer • Web3 Developer• UI/UX Designer<br className="hidden sm:block" /> • Tech Lead
         </motion.h2>
 
         {/* Tagline pills */}
-        <motion.div 
+        <motion.div
           variants={itemVariants}
           className="flex flex-wrap items-center justify-end gap-3 font-sans text-xs sm:text-sm text-[var(--color-parchment)]/70 max-w-xl mb-10 uppercase tracking-[0.2em]"
         >
@@ -76,7 +76,7 @@ export default function Hero() {
         </motion.div>
 
         {/* Short intro bio */}
-        <motion.p 
+        <motion.p
           variants={itemVariants}
           className="text-sm sm:text-base text-[var(--color-parchment)]/80 max-w-xl font-sans font-light leading-relaxed tracking-wide mb-12 italic"
         >
@@ -84,7 +84,7 @@ export default function Hero() {
         </motion.p>
 
         {/* Call to Actions */}
-        <motion.div 
+        <motion.div
           variants={itemVariants}
           className="flex flex-col sm:flex-row gap-6 justify-end items-end sm:items-center"
         >

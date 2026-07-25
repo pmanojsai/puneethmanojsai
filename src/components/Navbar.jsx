@@ -35,11 +35,10 @@ export default function Navbar() {
         initial={{ y: -50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[40] w-[90%] max-w-6xl transition-all duration-500 rounded-full px-6 py-3 sm:py-4 flex justify-between items-center ${
-          scrolled 
-            ? 'glassmorphism shadow-glow-gold border-white/5' 
+        className={`fixed top-4 left-1/2 -translate-x-1/2 z-[40] w-[90%] max-w-6xl transition-all duration-500 rounded-full px-6 py-3 sm:py-4 flex justify-between items-center ${scrolled
+            ? 'glassmorphism shadow-glow-gold border-white/5'
             : 'bg-transparent border-transparent'
-        }`}
+          }`}
       >
         {/* Brand Logo */}
         <a href="#home" className="flex items-center space-x-3 group">
@@ -47,15 +46,15 @@ export default function Navbar() {
             <Compass size={14} className="text-[var(--color-gold)] text-glow-gold" />
           </div>
           <span className="font-display text-sm sm:text-base tracking-widest text-[var(--color-parchment)] group-hover:text-[var(--color-gold)] transition-all duration-500 italic">
-            Puneeth <span className="text-[var(--color-gold)] text-glow-gold not-italic font-cinematic text-xs">// Archives</span>
+            Puneeth <span className="text-[var(--color-gold)] text-glow-gold not-italic font-cinematic text-xs"></span>
           </span>
         </a>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-4">
           {navItems.map((item) => (
-            <a 
-              key={item.name} 
+            <a
+              key={item.name}
               href={item.href}
               className="text-[10px] font-sans tracking-[0.12em] text-[var(--color-parchment)]/70 hover:text-[var(--color-gold)] hover:text-glow-gold transition-all duration-500 uppercase relative py-1"
             >
